@@ -1,4 +1,4 @@
-# Web Game Platform – Flappy Planes
+<img width="818" height="903" alt="image" src="https://github.com/user-attachments/assets/46bb3ec4-f229-4bfc-bfcb-833c34b04e74" /># Web Game Platform – Flappy Planes
 
 ## Overview
 This project is a browser-based game platform developed as part of a university team project at Florida State University. 
@@ -7,7 +7,7 @@ The platform includes multiple games accessible through a central hub.
 I independently implemented a Flappy Bird–style game using HTML, CSS, and JavaScript, including game physics, obstacle generation, and score tracking.
 
 ## Demo
-Play the game here:
+Play the game here (Live Demo):
 
 https://okidoki4830.github.io/web-game-platform/
 
@@ -31,22 +31,26 @@ Other team members implemented:
 - CSS
 - JavaScript
 
+## Project Structure
+
+```
 web-game-platform
- ├ flappy planes
- │   ├ flappy_planes.html
- │   ├ flappy_styles.css
- │   └ game.js
- │
- ├ images
- │   ├ home-icon.jpg
- │   ├ plane-icon.jpg
- │   └ tic-tac-toe-icon.jpg
- │
- ├ tic tac toe
- │   ├ Tic_Tac_Toe.html
- │   ├ Tic_Tac_Toe_script.js
- │   └ Win condition and symbol change.js
- │
- ├ index.html
- ├ style.css
- └ README.md
+├── flappy planes
+│   ├── flappy_planes.html
+│   ├── flappy_styles.css
+│   └── game.js
+│
+├── images
+│   ├── home-icon.jpg
+│   ├── plane-icon.jpg
+│   └── tic-tac-toe-icon.jpg
+│
+├── tic tac toe
+│   ├── Tic_Tac_Toe.html
+│   ├── Tic_Tac_Toe_script.js
+│   └── Win condition and symbol change.js
+│
+├── index.html
+├── style.css
+└── README.md
+```
