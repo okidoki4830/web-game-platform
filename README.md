@@ -1,5 +1,3 @@
-<img width="818" height="903" alt="image" src="https://github.com/user-attachments/assets/46bb3ec4-f229-4bfc-bfcb-833c34b04e74" /># Web Game Platform – Flappy Planes
-
 ## Overview
 This project is a browser-based game platform developed as part of a university team project at Florida State University. 
 The platform includes multiple games accessible through a central hub.
