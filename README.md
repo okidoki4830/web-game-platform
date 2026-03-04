@@ -7,10 +7,10 @@ This project is part of a university team project that developed a browser-based
 I independently developed a Flappy Bird style game including:
 
 - Character movement and gravity physics
-- Pipe obstacle generation
+- Randomized pipe obstacle generation (varying heights and gaps each run)
 - Collision detection
-- Difficulty scaling
 - Scoreboard system
+- Game restart functionality
 
 ## Team Contribution:
 
