@@ -1,0 +1,145 @@
+/*
+ * Main body styling for Flappy Planes game
+ * Centers game content and sets background
+ */
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/*
+ * Common menu styling
+ * Used for start page, score page, and game over menu
+ */
+#startPage, #scorePage, #gameOverMenu
+{
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/*
+ * Control selection container styling
+ * Contains keyboard and mouse control options
+ */
+#controlSelection
+{
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+}
+
+    /*
+ * Control selection paragraph styling
+ * Header text above control buttons
+ */
+    #controlSelection p
+    {
+        margin: 0 0 10px 0;
+        font-weight: bold;
+    }
+
+/*
+ * Base button styling
+ * Applied to all buttons in the game
+ */
+button
+{
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+    /*
+ * Button hover effect
+ * Visual feedback when mouse hovers over buttons
+ */
+    button:hover
+    {
+        background-color: #45a049;
+    }
+
+    /*
+ * Selected control button state
+ * Indicates which control method is currently selected
+ */
+    button.selected
+    {
+        background-color: #2196F3;
+    }
+
+/*
+ * Game canvas styling
+ * Sets border and display properties for the game area
+ */
+canvas
+{
+    border: 1px solid black;
+    display: block;
+}
+
+/*
+ * Score list container styling
+ * Contains the list of high scores
+ */
+#scoreList
+{
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+
+    /*
+ * Individual score entry styling
+ * Format for each score in the high score list
+ */
+    #scoreList li
+    {
+        margin: 5px 0;
+        font-size: 16px;
+    }
+
+/*
+ * Main heading styling
+ * Applied to h1 and h2 elements
+ */
+h1, h2
+{
+    color: #333;
+}
+
+/*
+ * Game over menu positioning
+ * Centers the game over menu on screen
+ */
+#gameOverMenu
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*
+ * Control instruction text styling
+ * Shows which control method is currently active
+ */
+#controlInstruction
+{
+    color: #666;
+    font-style: italic;
+}
