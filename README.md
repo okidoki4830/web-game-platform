@@ -12,6 +12,11 @@ I independently developed a Flappy Bird style game including:
 - Difficulty scaling
 - Scoreboard system
 
+## Team Contribution:
+
+- Tic Tac Toe game
+- Main game hub UI
+  
 ## Tech Stack
 
 HTML  
